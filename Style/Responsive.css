@@ -115,6 +115,19 @@
         width: 100%;
     }
 
-
+/* section 3 responsive */
+.flex-card{
+   flex-direction: column;
+}
+.card-1{
+    width: 89%;
+}
+.card-2{
+    width:89%;
+}
+.card-3{
+    width:89%;
+    margin-left: 0%;
+}
 
 }
