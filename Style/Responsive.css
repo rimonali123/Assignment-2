@@ -3,11 +3,9 @@
 @media screen and (max-width :600px) {
    body{
     margin: 0 auto;
-   }
-   header{
     margin: 10px 20px;
    }
-    .menu{
+   .menu{
         display:inline;
     } 
     .nav-icon{
@@ -49,10 +47,11 @@
     }
 
     /* main section responsive */
+    /* section-1 responsive */
+
     .section-1{
         margin: 0 auto;
         flex-direction: column;
-        margin: 10px 20px;
         gap: 15px;
         
     }
@@ -71,6 +70,51 @@
     }
     .image-section img{
         margin: 0 auto;
-        width: 375px;
+        width: 100%;
     }
+
+
+
+    /* section-2 style responsive */
+
+    .section-2 h2{
+        font-size: 1.25rem;
+        
+    }
+    .section-2 p{
+        font-size: 0.875rem;
+       width: 90%;
+    }
+    .images-two{
+        flex-direction: column;
+        margin: 0, auto;
+       
+       
+    }
+    .images-two img{
+        width: 100%;
+    }
+    .images-three{
+        flex-direction: column;
+        margin: 0, auto; 
+       
+    }
+    .images-three .img-3{
+        width: 100%;
+    }
+    .images-three .img-4{
+        width: 100%;
+    }
+    .images-three .img-5{
+        width: 100%;
+    }
+    .images-two .img-6{
+        width: 100%;
+    }
+    .images-two .img-7{
+        width: 100%;
+    }
+
+
+
 }
