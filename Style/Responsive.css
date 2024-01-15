@@ -1,7 +1,7 @@
 /* Small Device Or Mobile Device Responsive */
 
 @media screen and (max-width :600px) {
-   body{
+   main, header{
     margin: 0 auto;
     margin: 10px 20px;
    }
@@ -129,5 +129,16 @@
     width:89%;
     margin-left: 0%;
 }
+
+/* footer section */
+footer{
+    width: 100%;
+}
+footer .nav-title{
+    margin-left: 5%;
+ }
+ .icon{
+    margin-left: 35%;
+ }
 
 }
