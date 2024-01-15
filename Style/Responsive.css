@@ -1,0 +1,50 @@
+/* Small Device Or Mobile Device Responsive */
+
+@media screen and (max-width :600px) {
+   body{
+    margin: 0 auto;
+   }
+   header{
+    margin: 10px 20px;
+   }
+    .menu{
+        display:inline;
+    } 
+    .nav-icon{
+        display: none;
+    }
+    .nav-title{
+        width: 100%;
+    }
+    .banner-content {
+       margin: 0, auto;
+        padding-top: 0px;
+    }
+    .banner-content h2{
+        width: 100%;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .banner-content p {
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        padding-left: 0px;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .banner-input-field {
+        flex-direction: column;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        
+    }
+    .banner-common-class {
+        height: 45px;
+        width: 250px;
+        border-radius: 8px;
+        background: #FFF;
+        font-weight: 700;
+        border: none;
+    }
+}
