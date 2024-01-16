@@ -129,6 +129,31 @@
     width:89%;
     margin-left: 0%;
 }
+/* section-7 styles */
+
+
+.section-7{
+    flex-direction: column;
+   
+}
+.section-7-video img{
+    width: 355px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   
+}
+.on-video-text {
+    left: 1%;
+}
+.section-7-content h2 {
+    font-size: 1.25rem;
+    width: 200px;
+}
+.section-7-content p ,ul > li{
+    width: 300px;
+   
+}
+
 
 /* section-8 responsive style */
 
@@ -139,11 +164,12 @@
 }
 .section-8-image img{
     width: 355px;
+    height: 350px;
 }
 .section-8-content{
     width: 71%;
 }
-.section-8-content input {
+.section-8-content input , .common-button{
     width: 100%;
 }
 .tringle{
