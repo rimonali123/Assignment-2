@@ -55,10 +55,17 @@ nav {
     width: 100%;
     height: 500px;
     margin-top: 10px;
-    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-image:
+    linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     border-radius: 16px;
     /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+    /* background-image: */
+    /* linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/background.jpg'); */
+   ;
+
+
 }
 
 .banner-content {
@@ -131,6 +138,7 @@ nav {
 .image-section img {
     height: 500px;
     width: 550PX;
+    
     object-fit: cover;
     box-sizing: border-box;
 
@@ -148,6 +156,46 @@ ul {
     font-weight: 400;
 }
 
+
+
+/* tour-section styles */
+
+.tour-section{
+    margin-top: 10px;
+    width: 100%;
+    height: 700px;
+    /* border: 2px solid aquamarine; */
+    text-align: center;
+}
+.tour-section h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #131318;
+}
+
+.tour-section p {
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    display: inline-block;
+    align-items: flex-start;
+    width: 50%;
+}
+.the-img img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.the-img{ 
+    position: relative;
+}
+.the-img p{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    color:#FFF;
+    font-size: 3rem;
+}
 
 
 /* section-2 */
@@ -331,12 +379,12 @@ ul {
 }
 
 .card-3 {
-    width: 40%;
+    width: 60%;
     border-radius: 16px;
     padding: 20px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    margin-left: 30%;
+    margin-left: 20%;
 }
 
 

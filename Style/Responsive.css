@@ -72,6 +72,14 @@
         margin: 0 auto;
         width: 100%;
     }
+
+    /* Tour-section */
+    .the-img p {
+        left: 0px;
+    }
+    .tour-section p{
+        width: 100%;
+    }
     
 
 
@@ -79,7 +87,8 @@
     /* section-2 style responsive */
 
     .section-2 h2{
-        font-size: 1.25rem;
+        font-size: 1.5rem;
+        text-align: start;
         
     }
     .section-2 p{
