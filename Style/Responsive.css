@@ -130,6 +130,17 @@
         height: 300px;
     }
 
+
+
+    /* image text here */
+    .images p{
+        display: none;
+    }
+
+
+
+
+
 /* section 3 responsive */
 .flex-card{
    flex-direction: column;
@@ -154,6 +165,7 @@
 
 }
 
+
 .section-4-icons{
     flex-direction: column;
     gap: 5px;
@@ -172,6 +184,8 @@
 .section-4 #hide{
     display: none;
 }
+
+
 
 
 
