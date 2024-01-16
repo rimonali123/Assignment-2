@@ -6,13 +6,14 @@
     margin: 10px 20px;
    }
    .menu{
-        display:inline;
+       color: black;
     } 
     .nav-icon{
         display: none;
     }
     .nav-title{
         width: 100%;
+        font-size: 1.5rem;
     }
     .banner-content {
        margin: 0, auto;
@@ -60,18 +61,18 @@
     }
     .content-section h2{
         margin: 0 auto;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         width: 100%;
     }
     .content-section p, ul{
         margin: 0 auto;
-        width: 85%;
-        font-size: 0.87rem;
+        width: 100%;
     }
     .image-section img{
         margin: 0 auto;
         width: 100%;
     }
+    
 
 
 
@@ -85,6 +86,10 @@
         font-size: 0.875rem;
        width: 90%;
     }
+    .section-2 > img{
+        
+    }
+    
     .images-two{
         flex-direction: column;
         margin: 0, auto;
@@ -93,6 +98,11 @@
     }
     .images-two img{
         width: 100%;
+        height: 300px;
+        
+    }
+    .images-three img{
+        min-height: 300px;
     }
     .images-three{
         flex-direction: column;
@@ -101,18 +111,23 @@
     }
     .images-three .img-3{
         width: 100%;
+        height: 300px;
     }
     .images-three .img-4{
         width: 100%;
+        height: 300px;
     }
     .images-three .img-5{
         width: 100%;
+        height: 300px;
     }
     .images-two .img-6{
         width: 100%;
+        height: 300px;
     }
     .images-two .img-7{
         width: 100%;
+        height: 300px;
     }
 
 /* section 3 responsive */
@@ -129,6 +144,38 @@
     width:89%;
     margin-left: 0%;
 }
+
+
+
+/* section-4 styles */
+.section-4{
+   height: 500px;
+    margin-bottom: 0px;
+
+}
+
+.section-4-icons{
+    flex-direction: column;
+    gap: 5px;
+   
+}
+.section-4-content{
+    position: absolute;
+    left: 25px;
+    top: 120px;
+    width: 220px;
+    height: 320px;
+    padding-top: 10px;
+
+
+}
+.section-4 #hide{
+    display: none;
+}
+
+
+
+
 /* section-7 styles */
 
 
@@ -136,14 +183,13 @@
     flex-direction: column;
    
 }
-.section-7-video img{
+.section-7-video .video{
     width: 355px;
    margin-top: 10px;
    margin-bottom: 10px;
+   border-radius: 16px;
+   height: 300px;
    
-}
-.on-video-text {
-    left: 1%;
 }
 .section-7-content h2 {
     font-size: 1.25rem;
@@ -168,9 +214,13 @@
 }
 .section-8-content{
     width: 71%;
+    margin-top: 20px;
 }
 .section-8-content input , .common-button{
     width: 100%;
+}
+.f-button{
+    width: 50%;
 }
 .tringle{
     width: 220px;
